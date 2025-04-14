@@ -328,4 +328,18 @@ footer {
 	transform: scale(1.1);
   	transition: 100ms;
 }
+.par-imgs-escritorio.solo-una {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 0;
+  margin: 0;
+}
+
+.par-imgs-escritorio.solo-una img {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+}
 /***************************************************/
